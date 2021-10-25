@@ -1,0 +1,1 @@
+wrk -t12 -c100 -d1s -s ./wrk_post.lua http://localhost:8080/pq/test123/push/1
